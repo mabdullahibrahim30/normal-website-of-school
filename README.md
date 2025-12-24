@@ -1,2 +1,2 @@
 # normal-website-of-school
-basic html and css
+basic html,css and java script

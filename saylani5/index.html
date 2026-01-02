@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number.io</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class=" flex justify-center-safe">
+    <div class="h-screen w-screen bg-purple-300  flex justify-evenly grid h-56  content-center ">
+        <div class="border-4 border-yellow-600 rounded-xl p-5  ">
+            <div>
+                <h1 class="text-purple-500 text-4xl">Number Guessing Game</h1>
+            </div>
+            <div>
+                <input class="p-3" type="text" id="Guess" value="" placeholder="Entre your guess">
+            </div>
+
+            <button class="text-2xl text-blue-500 bg-yellow-100 p-2" id="btn" onclick="checkNumber()"> Guess random
+            </button>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

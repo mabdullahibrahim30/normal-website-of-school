@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables .io</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-400 h-screen flex justify-center">
+    <div class="text-center p-2 bg-white rounded mt-20 h-fit">
+        <h1 class="font-bold text-orange-600 text-5xl"> Dynamic Table Generator App</h1>
+        <div>
+            <input type="text" id="num" placeholder="Chose a Table Number" class="border border-blue-500">
+            <input type="text" id="range" placeholder="Chose a Table Range" class="border border-blue-500">
+        </div>
+        <div>
+            <button onclick="GenrateTable()" id="generateBtn" class="bg-green-500 p-2 rounded-xl mt-5">Generate
+            Table</button>
+        </div>
+     <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 10;
+    color: red;
+    background-color: aqua;
+    font-size: larger;
+}
+
+.box {
+    background-color: white;
+}
+
+img {
+    height: 900px;
+    width: 800px;
+    margin: 0px 0px 0px 500px;
+    animation: slow;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+input:checked-#stop {
+    animation-play-state: paused;
+}
+
+input:checked-#slow {
+    animation-duration: 2s;
+}
+
+input:checked-#fast {
+    animation-duration: 1s;
+}
+
+input:checked-#veryfast {
+    animation-duration: 0.4s;
+}
+
+@keyframes slow {
+    100% {
+        transform: rotate(360deg);
+    }
+}
